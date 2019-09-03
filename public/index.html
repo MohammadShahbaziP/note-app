@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>دفتر یادداشت</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <h1 class="header__title">دفتر یادداشت</h1>
+            <h2 class="header__subtitle">کم رنگ ترین جوهرها از قوی ترین حافظه ها ماندگارتر است</h2>
+        </div>
+    </div>
+    <div class="actions">
+        <div class="actions__container">
+
+            <input type="text" id="searchBox" class="input" placeholder="جستجو">
+            <select name="" id="filteredBy" class="dropdown">
+                <option value="lastEdited">بر اساس آخریت تغییر</option>
+                <option value="createdAt">بر اساس زمان ایجاد</option>
+                <option value="alphabetical">بر اساس حروف الفبا</option>
+            </select>
+        </div>
+    </div>
+    <div class="container">
+
+        <div id="notes"></div>
+        
+    </div>
+    <div class="container mar">
+        <button id="createNote" class="button">اضافه کردن یادداشت</button>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <p>Copy right : &copy; Mohammad Shahbazi</p>
+        </div>
+    </div>
+
+    <script src="scripts/index-bundle.js"></script>
+
+
+</body>
+
+</html>
